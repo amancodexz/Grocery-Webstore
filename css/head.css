@@ -78,7 +78,7 @@ a{
 }
 
 .backgroundimg{
-    background-image: url(/assets/product-background.jpg);
+    background-image: url(assets/product-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1520px;
@@ -90,7 +90,7 @@ a{
 }
 
 .words{
-    background-image: url(/assets/fruitsandvegecartoon.jpg);
+    background-image: url(assets/fruitsandvegecartoon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1520px;
