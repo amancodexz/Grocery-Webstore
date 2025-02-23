@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#img{
+    position: absolute ;
+    top: 30px;
+    left: 8%;
+}
+
+form{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+form:hover{
+    position: absolute;
+    right: 30px;
+    transform: scaleX(1.2);
+    color: brown;
+}
+
+
+footer{
+        background: #333;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+.item{
+    width: 180px; 
+    padding-top: 15px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 170px;
+    row-gap: 30px;
+    margin-left: 120px;
+}
+
+.grids{
+    background-color: wheat;
+    box-shadow: 2px 2px yellow;
+}
+
+.grid:hover{
+    transition: scale(2.05);
+}
+/* Buy Now button styles */
+.buy-now-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #28a745;  /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;  /* Adds space between the description and the button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buy-now-btn:hover {
+    background-color: #218838;  /* Darker green on hover */
+    transform: scale(1.05);  /* Slightly grow on hover */
+}
+
+.buy-now-btn:active {
+    background-color: #1e7e34;  /* Even darker green on click */
+}
+
+#title{
+    display: block;
+
+}

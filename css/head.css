@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #b57010eb;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.products, .contact {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: cornsilk;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#home{
+    color: black;
+}
+
+#img{
+    position: absolute ;
+    top: 30px;
+    left: 8%;
+}
+
+form{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+form:hover{
+    position: absolute;
+    right: 30px;
+    transform: scaleX(1.2);
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.backgroundimg{
+    background-image: url(/assets/product-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1520px;
+    height: 250px;
+}
+
+#product-title{
+    padding-top: 20px;
+}
+
+.words{
+    background-image: url(/assets/fruitsandvegecartoon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1520px;
+    height: 300px;
+    display: flex;
+    top: 0px;
+}
+
+
+
